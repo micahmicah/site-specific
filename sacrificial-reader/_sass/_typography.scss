@@ -1,0 +1,69 @@
+@font-face{
+	font-family:"founders-condensed";
+	src:url('fonts/FoundersGroteskCond-Lt.otf');
+	font-weight:500;
+	font-style:normal;
+	font-stretch:normal;
+}
+
+@font-face{
+	font-family:"founders-condensed";
+	src:url('fonts/FoundersGroteskCond-SmBd.otf');
+	font-weight:700;
+	font-style:normal;
+	font-stretch:normal;
+}
+
+
+%sans{
+	font-family:"founders-condensed";
+}
+
+
+h1{
+	@extend %sans;
+	font-size:56px;
+	font-weight:500;
+	transform:rotate(90deg) translateY(0.5em);
+	// span{
+	// 	display:inline-block;
+	// 	&:nth-child(odd){
+	// 		transform:translateY(0.125em);
+	// 		color:rgb(200,200,200);
+	// 	}
+	// 	&:nth-child(4n){
+	// 		transform:rotate(40deg);
+	// 	}
+	// 	&:nth-child(2n){
+	// 		transform:translateY(-0.125em);
+	// 	}
+
+	// 	&:nth-child(6n){
+	// 		transform:rotate(-50deg);
+	// 	}
+	// }
+}
+
+h2{
+	@extend %sans;
+	@include respond-above(medium){
+		font-size:448px;
+		text-indent:0.25em;
+		margin:0.125em 0em;
+		color:white;
+		transform:rotate(90deg) translateX(0.66em) translateY(0.75em);
+	};
+}
+
+p{
+	@extend %sans;
+	line-height:1em;
+	text-indent:2em;
+	margin:0;
+	opacity:0;
+	@include respond-above(medium){
+		font-size:56px;
+		opacity:1;
+	};
+	
+}

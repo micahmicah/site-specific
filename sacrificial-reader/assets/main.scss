@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "responsive";
+@import "typography";
+@import "components/color";
+@import "components/controller";
+
+body{
+	background:$background-color;
+	padding-bottom:20em;
+}
+
+h1{
+	opacity:0;
+	color:$text-color;
+	@include respond-above(small){
+		opacity:1;
+		font-size:20em;
+		line-height:0.66;
+	}
+}
