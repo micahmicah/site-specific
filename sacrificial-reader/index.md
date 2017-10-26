@@ -44,5 +44,25 @@ Life Sharing was structured like all computers, with folders containing files (i
 
 When you’d enter our website, an alert would pop up saying, “Now you’re in my computer,” to make it clear, even to a random visitor, that this was something different from other websites. It was our personal computer, and you were entering a very intimate space. From the viewer’s perspective, it’s like entering someone’s private life, as if you were stealing a stranger’s computer and reading their emails and rummaging through all their files, looking for something interesting, or as if you entered someone’s house and started looking in the drawers … there’s definitely a voyeuristic feeling to the experience, that the viewer felt while spending time on our computer.
 
+# The Cloud
+
+There's something comforting about the wispy metaphor for the network that underpins most aspects of our daily lives. It's easy to forget the reality of its vast physical infrastructure.
+
+The "cloud" in cloud computing has its origins in the network diagrams of early telecommunications engineers. Drawn freehand, a little puff of semicircles, a thought bubble, it denotes the point at which the responsibility of the engineer ceases. That stuff over there, which we don't need to think about. Everything in the cloud is invisible; and somebody else's problem.
+
+With the advent of digital networks, the cloud quickly came to denote the internet, the worldwide network of networks that is also somebody else's problem. You can ask the cloud questions, and the cloud answers. All is well and good. Sometimes the cloud doesn't answer, and you have to dig up a road. Beneath the paving stones, the cloud.
+
+But some time around the mid-1990s, the cloud changed. A 1996 internal document from computer company Compaq was titled "Internet Solutions Division Strategy for Cloud Computing". Whether it was the first use of the term is disputed, but it states that in the future "application software is no longer a feature of the hardware – but of the Internet".
+
+What had changed was that the network had stopped being a mere communication channel, and had become a place for computation and storage. By the mid-noughties it was a marketing buzzword, and today it is a fact of life. We have designed our lives around this ever-available, practically infinite and startlingly remote storage capacity. As smart as the phones in our pockets are, most of what they tell us is calculated and held in the cloud.
+
+A 2012 survey by cloud corp Citrix stated that, from a base of 1,000 respondents, 95 per cent didn't believe they used the cloud, and 95 per cent of them actually did. From Gmail to the Amazon wishlist, most of your emails, photos, status updates, business documents, library and voting data, health records, credit rating, likes, experiences and personal preferences are in the cloud. And that cloud belongs to someone.
+
+The cloud is not some magical faraway place made of water vapour and radio waves where everything just works. It is a physical infrastructure consisting of phone lines, fibre optics, satellites, cables on the ocean floor, and vast warehouses filled with computers, which consume huge amounts of water and energy, and reside within national and legal jurisdictions. There's a reason Google and Facebook like to build data centres in Ireland (tax) and Scandinavia (cheap energy, and it's cold). The cloud doesn't just have a shadow, it has a footprint.
+
+Yet it is still "somebody else's problem". The cloud is both an inherently distancing metaphor and a potentially harmful one. The computer in your pocket was designed in California, mined in Canada, assembled in China, shipped via god-knows-where, and allows you to see and contact any point on the planet, and even the satellites orbiting above it.
+
+The cloud obscures these relationships, but if we poke it, it also reveals them in ways that were not possible to see before. That anonymous shed on the ring road is the new civic sphere; it's the place where we shop, bank, socialise and vote. To truly perceive and understand the implications of this is central to the design and architecture of the future. The network is crying out for better metaphors.
+
 
 

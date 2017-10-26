@@ -1,0 +1,14 @@
+#arrow{
+	position:fixed;
+	max-width:60vw;
+	left:20vw;
+	top:20vh;
+	display:none;
+	polygon{
+		fill:$text-color;
+	}
+
+	@include respond-above(small){
+		display:none;
+	};
+}

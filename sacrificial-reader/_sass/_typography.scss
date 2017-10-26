@@ -42,6 +42,35 @@ h1{
 	// 		transform:rotate(-50deg);
 	// 	}
 	// }
+	span{
+
+	}
+	
+	.char3{
+		display:inline-block;
+		transform:rotate(-8deg);
+	}
+	.char4{
+		display:inline-block;
+		transform:translateY(0.05em) translateX(-0.05em);
+	}
+	.char21{
+		transform:translateY(-0.125em);
+		display: inline-block;
+	}
+	.char22{
+		transform:translateX(-0.05em);
+		display: inline-block;
+	}
+	.char23{
+		display:inline-block;
+		transform:rotate(-10deg);
+	}
+	.char24{
+		display:inline-block;
+		transform:rotate(10deg) translateX(-0.05em) translateY(0.05em);
+
+	}
 }
 
 h2{

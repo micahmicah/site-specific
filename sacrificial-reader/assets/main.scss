@@ -6,10 +6,13 @@
 @import "typography";
 @import "components/color";
 @import "components/controller";
+@import "components/arrow";
 
 body{
 	background:$background-color;
-	padding-bottom:20em;
+	@include respond-above(medium){
+		padding-bottom:20em;	
+	};
 }
 
 h1{
@@ -20,4 +23,11 @@ h1{
 		font-size:20em;
 		line-height:0.66;
 	}
+}
+
+h2{
+	opacity:0;
+	@include respond-above(small){
+		opacity:1;
+	};
 }
