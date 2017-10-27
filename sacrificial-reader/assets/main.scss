@@ -9,9 +9,11 @@
 // @import "components/arrow";
 
 body{
-	background: rgb(240,240,240);
+	// background: radial-gradient(ellipse at center, rgba(251,255,50,1) 0%,rgba(50,255,207,1) 100%);
 	// animation: bgShift 10s ease-in-out infinite alternate;
+	background-image:url('../assets/img/bg.png');
 	height:4000px;
+	width:3000px;
 	
 }
 
