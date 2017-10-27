@@ -1,0 +1,145 @@
+- word: "you"
+  type: "subject"
+
+- word: "I"
+  type: "subject"
+
+- word: "she"
+  type: "subject"
+
+- word: "her"
+  type: "subject"
+
+- word: "we"
+  type: "subject"
+
+- word: "he"
+  type: "subject"
+
+- word: "who"
+  type: "subject"
+
+- word: "was"
+  type: "subject"
+
+- word: "is"
+  type: "subject"
+
+- word: "whose"
+  type: "subject"
+
+- word: "him"
+  type: "subject"
+
+- word: "they"
+  type: "subject"
+
+- word: "ourselves"
+  type: ""
+
+- word: "am"
+  type: ""
+
+- word: "was"
+  type: ""
+
+- word: "will"
+  type: ""
+
+- word: "were"
+  type: ""
+
+- word: "copy"
+  type: ""
+
+- word: "copies"
+  type: ""
+
+- word: "copying"
+  type: ""
+
+- word: "copied"
+  type: ""
+
+
+- word: "searching"
+  type: ""
+
+- word: "searches"
+  type: ""
+
+- word: "here"
+  type: ""
+
+- word: "there"
+  type: ""
+
+- word: "still"
+  type: ""
+
+- word: "together"
+  type: ""
+
+- word: "apart"
+  type: ""
+
+- word: "alone"
+  type: ""
+
+- word: "fine"
+  type: ""
+
+- word: "glad"
+  type: ""
+
+- word: "scroll"
+  type: ""
+
+- word: "scrolling"
+  type: ""
+
+- word: "click"
+  type: ""
+
+- word: "clicking"
+  type: ""
+
+- word: "tap"
+  type: ""
+
+- word: "tapping"
+  type: ""
+
+- word: "clip"
+  type: ""
+
+- word: "clipping"
+  type: ""
+
+- word: "look"
+  type: ""
+
+- word: "looking"
+  type: ""
+
+- word: "see"
+  type: ""
+
+- word: "seeing"
+  type: ""
+
+- word: "saw"
+  type: ""
+
+- word: "choose"
+  type: ""
+
+- word: "choice"
+  type: ""
+
+- word: "choosing"
+  type: ""
+
+- word: "chosen"
+  type: ""
+

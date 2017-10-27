@@ -1,17 +1,43 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.js"></script>
-<script src="assets/js/lib/jquery.lettering-0.6.1.min.js"></script>
-
 <script>
-$('.page-content').infiniteScroll({
-  // options
-  path: '.pagination__next',
-  append: '.wrapper',
-  history: false,
-  debug:true,
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+}
+
+
+
+
+
+
+// newsData = $.getJSON('https://newsapi.org/v1/sources?language=en', function(data) {
+//   console.log(data.sources);
+//   for (var i = 0; i < data.sources.length; i++) {
+//   	console.log(data.sources[i].description);
+//   	$('<p class="feed" id="entry-' + i +  '">' + data.sources[i].description + "</p>").appendTo($('body'));
+//   }
+// });
+
+
+
+
+var punctuation = [',', '.', '?' ,'!', '...', ' '];
+var rotations = [0, 90, 180];
+var margin = 2;
+
+$('span').each(function(){
+	xpos = getRandomInt(1,700);
+	ypos = getRandomInt(0,2000);
+	// fontSize = getRandomInt(10,50);
+	randomMark = getRandomInt(0,punctuation.length);
+	// randomRotation = getRandomInt(0,rotations.length);
+
+	$(this).css('top', ypos + '%');
+	$(this).css('left', xpos + '%');
+	// $(this).css('transform', 'rotate(' + rotations[randomRotation] + 'deg)' );
+	// $(this).css('font-size', fontSize + 'vw');
+	$( "<span>" + punctuation[randomMark] + "</span>" ).appendTo( $( this ) );
 });
-$(document).ready(function(){
-	$('h1').lettering();	
-})
+
 
 </script>
