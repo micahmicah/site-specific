@@ -4,7 +4,7 @@
 p{
 	font-family:"Burgess Trial";
 	// font-family:"Montefiore Trial";
-	font-size:25vw;
+	font-size:20vw;
 	font-weight:100;
 	width:70vw;
 	line-height:0.99;
@@ -13,10 +13,16 @@ p{
 }
 
 span{
-	position:absolute;
-	display:inline-block;
-	// background:rgb(30,30,30);
-	// padding:0.125em 0.25em;
-	color:rgb(30,30,30);
+	opacity:0;
+	@include respond-above(medium){
+		position:absolute;
+		display:inline-block;
+		margin-bottom:2em;
+		opacity:1;
+		// background:rgb(30,30,30);
+		// padding:0.125em 0.25em;
+		color:rgb(220,220,220);
+	};
+	
 }
 

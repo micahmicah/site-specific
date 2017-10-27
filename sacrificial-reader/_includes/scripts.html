@@ -26,14 +26,14 @@ var rotations = [0, 90, 180];
 var margin = 2;
 
 $('span').each(function(){
-	xpos = getRandomInt(1,700);
-	ypos = getRandomInt(0,2000);
+	xpos = getRandomInt(0,2);
+	ypos = getRandomInt(0,2500);
 	// fontSize = getRandomInt(10,50);
 	randomMark = getRandomInt(0,punctuation.length);
 	// randomRotation = getRandomInt(0,rotations.length);
 
 	$(this).css('top', ypos + '%');
-	$(this).css('left', xpos + '%');
+	$(this).css('left', xpos + 'em');
 	// $(this).css('transform', 'rotate(' + rotations[randomRotation] + 'deg)' );
 	// $(this).css('font-size', fontSize + 'vw');
 	$( "<span>" + punctuation[randomMark] + "</span>" ).appendTo( $( this ) );
