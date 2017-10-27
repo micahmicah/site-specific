@@ -1,6 +1,7 @@
 
 
 
+<<<<<<< HEAD
 p{
 	font-family:"Burgess Trial";
 	// font-family:"Montefiore Trial";
@@ -10,6 +11,30 @@ p{
 	line-height:0.99;
 	// position:absolute;
 
+=======
+h1{
+	@extend %sans;
+	font-size:56px;
+	font-weight:500;
+	transform:rotate(90deg) translateY(0.5em);
+	// span{
+	// 	display:inline-block;
+	// 	&:nth-child(odd){
+	// 		transform:translateY(0.125em);
+	// 		color:rgb(200,200,200);
+	// 	}
+	// 	&:nth-child(4n){
+	// 		transform:rotate(40deg);
+	// 	}
+	// 	&:nth-child(2n){
+	// 		transform:translateY(-0.125em);
+	// 	}
+
+	// 	&:nth-child(6n){
+	// 		transform:rotate(-50deg);
+	// 	}
+	// }
+>>>>>>> parent of da4c327... updates
 }
 
 span{
