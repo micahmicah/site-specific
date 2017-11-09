@@ -1,23 +1,26 @@
 - word: "you"
-  type: "subject"
+  type: "noun"
 
 - word: "I"
-  type: "subject"
+  type: "noun"
 
 - word: "she"
-  type: "subject"
+  type: "noun"
 
 - word: "her"
-  type: "subject"
+  type: "noun"
 
 - word: "we"
-  type: "subject"
+  type: "noun"
 
 - word: "he"
-  type: "subject"
+  type: "noun"
 
 - word: "who"
-  type: "subject"
+  type: "noun"
+
+- word: "they"
+  type: "noun"
 
 - word: "was"
   type: "subject"
@@ -47,10 +50,10 @@
   type: ""
 
 - word: "were"
-  type: ""
+  type: "verb"
 
 - word: "copy"
-  type: ""
+  type: "verb"
 
 - word: "copies"
   type: ""
@@ -61,6 +64,9 @@
 - word: "copied"
   type: ""
 
+- word: "search"
+
+- word: "searched"
 
 - word: "searching"
   type: ""
@@ -101,8 +107,16 @@
 - word: "click"
   type: ""
 
+- word: "clicked"
+  type: ""
+
+- word: "clicks"
+  type: ""
+
 - word: "clicking"
   type: ""
+
+- word: "slowly"
 
 - word: "tap"
   type: ""
@@ -111,6 +125,9 @@
   type: ""
 
 - word: "clip"
+  type: ""
+
+- word: "clipped"
   type: ""
 
 - word: "clipping"
@@ -142,4 +159,9 @@
 
 - word: "chosen"
   type: ""
+
+- plural: 
+  - vowelY: "ies"
+  - consonant: "s"
+  
 
