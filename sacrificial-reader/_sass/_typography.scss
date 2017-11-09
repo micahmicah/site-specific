@@ -1,40 +1,23 @@
 
 
 
-<<<<<<< HEAD
 p{
-	font-family:"Burgess Trial";
-	// font-family:"Montefiore Trial";
-	font-size:25vw;
-	font-weight:100;
+	// font-family:"Relative Trial";
+	// font-size:25vw;
+
+	// font-family:"Gothic 523";
+	// font-size:30vw;
+	// letter-spacing:-0.02em;
+
+	font-family:"MarleneStencil";
+	font-size: 30vw;
+	letter-spacing:0em;
+
+	font-weight:200;
 	width:70vw;
 	line-height:0.99;
 	// position:absolute;
 
-=======
-h1{
-	@extend %sans;
-	font-size:56px;
-	font-weight:500;
-	transform:rotate(90deg) translateY(0.5em);
-	// span{
-	// 	display:inline-block;
-	// 	&:nth-child(odd){
-	// 		transform:translateY(0.125em);
-	// 		color:rgb(200,200,200);
-	// 	}
-	// 	&:nth-child(4n){
-	// 		transform:rotate(40deg);
-	// 	}
-	// 	&:nth-child(2n){
-	// 		transform:translateY(-0.125em);
-	// 	}
-
-	// 	&:nth-child(6n){
-	// 		transform:rotate(-50deg);
-	// 	}
-	// }
->>>>>>> parent of da4c327... updates
 }
 
 span{
@@ -42,6 +25,6 @@ span{
 	display:inline-block;
 	// background:rgb(30,30,30);
 	// padding:0.125em 0.25em;
-	color:rgb(30,30,30);
+	color:rgb(0,0,250);
 }
 
