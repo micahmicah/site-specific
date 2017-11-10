@@ -1,0 +1,42 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+---
+
+
+
+<!-- <p>
+     {% assign counter = 01 %}
+    {% for item in site.data.more-words %}
+       {% assign someVar = someVar | plus: 1 %}
+
+      <span id="word-{{someVar}}" class="word">{{item.word}}
+
+
+    {% endfor %}
+    </p> -->
+
+{% for entry in site.data.poems %}
+
+       <h2>{{entry.title}}</h2>
+       <p>
+           {% for line in entry.poem %}
+            <span>{{line.line}}</span>
+           {% endfor %}
+       </p>
+
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
