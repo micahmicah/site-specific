@@ -9,18 +9,70 @@
 // @import "components/controller";
 // @import "components/arrow";
 
+
+
+h2{
+	font-family:"Masqualero";
+	text-align:center;
+}
+
+p{
+	// font-family:"Relative Trial";
+	// font-size:25vw;
+
+	// font-family:"Gothic 523";
+	// font-size:30vw;
+	// letter-spacing:-0.02em;
+
+	font-family:"Masqualero";
+	// hyphens:auto;
+	font-size: 14vw;
+	letter-spacing:-0.03em;
+	font-feature-settings:"kern" 1;
+	font-kerning: normal;
+	font-weight:200;
+	width:90vw;
+	line-height:0.97;
+	opacity:0;
+	@include respond-above(small){
+		opacity:1;
+	};
+}
+
+span{
+
+	display:block;
+	color:rgb(40,40,40);
+	margin-bottom:2em;
+	// transform:rotate(-23deg);
+	&:nth-child(odd){
+		opacity:0;
+	}
+}
+
+
+
+
 body{
-	// background: radial-gradient(ellipse at center, rgba(251,255,50,1) 0%,rgba(50,255,207,1) 100%);
-	// animation: bgShift 10s ease-in-out infinite alternate;
-	// background-image:url('../assets/img/bg-02.png');
-	background:rgb(255,0,0);
-	height:4000px;
-	width:3000px;
+
+	background:rgb(220,220,220);
 	
+	&.b{
+		background:rgb(220,220,220);
+		span{
+			// color:rgb(0,0,0);
+			opacity:1;
+			&:nth-child(even){
+				opacity:0;
+			}
+		}
+	}
+
 }
 
-main{
-	width:3000px;
+
+
+
+:target{
+	background:red;
 }
-
-
