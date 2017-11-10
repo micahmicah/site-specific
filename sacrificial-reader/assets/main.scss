@@ -14,6 +14,10 @@
 h2{
 	font-family:"Masqualero";
 	text-align:center;
+	opacity:0;
+	@include respond-above(small){
+		opacity:1;
+	};
 	// border-bottom:1px solid;
 }
 
@@ -32,10 +36,10 @@ p{
 	font-feature-settings:"kern" 1;
 	font-kerning: normal;
 	font-weight:200;
-	width:90vw;
+	// width:100%;
 	line-height:0.97;
 	opacity:0;
-	padding:0 0.125em;
+	padding:0 0.5em;
 	@include respond-above(small){
 		opacity:1;
 	};
@@ -54,14 +58,19 @@ span{
 
 
 .poem{
-	margin-bottom:40vh;
+	margin-bottom:150vh;
+	width:100vw;
 	// padding:0 1vw;
 
 }
 
 body{
 	margin:0;
-	background:rgb(220,220,220);
+	width:100vw;
+	@include respond-above(small){
+		background:rgb(220,220,220);	
+	};
+	
 	
 	&.b{
 		background:rgb(220,220,220);
