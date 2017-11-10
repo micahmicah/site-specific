@@ -39,7 +39,7 @@ p{
 	};
 }
 
-span{
+.line{
 
 	display:block;
 	color:rgb(40,40,40);
@@ -56,13 +56,13 @@ span{
 body{
 
 	background:rgb(250,0,0);
-	span{
-		color:rgb(0,0,250);
+	.line{
+		color:rgb(250,250,250);
 	}
 	&.b{
 		background:rgb(0,0,250);
-		span{
-			color:rgb(250,0,0);
+		.line{
+			color:rgb(250,250,250);
 			opacity:1;
 			&:nth-child(even){
 				opacity:0;
