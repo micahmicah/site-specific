@@ -24,9 +24,9 @@ p{
 	// font-size:30vw;
 	// letter-spacing:-0.02em;
 
-	font-family:"Masqualero";
-	// hyphens:auto;
-	font-size: 14vw;
+	font-family:"Circular Std";
+	hyphens:auto;
+	font-size: 40vw;
 	letter-spacing:-0.03em;
 	font-feature-settings:"kern" 1;
 	font-kerning: normal;
@@ -48,13 +48,44 @@ p{
 	&:nth-child(odd){
 		opacity:0;
 	}
+
+	&:nth-child(5n){
+		transform:rotate(30deg);
+	}
+
+	&:nth-child(7n){
+		transform:rotate(-3deg);
+	}
+	span{
+		display:inline-block;
+		&:nth-child(odd){
+			// background:black;
+			display:inline-block;
+			transform:translateY(0.2em);
+		}
+		&:nth-child(4n){
+			transform:rotate(10deg);
+		}
+	}
 }
 
 
+.fragments{
+	position:absolute;
+	top:0;
+	.fragment{
+		margin-bottom:10em;
+	}
+	p{
+		font-family:"Masqualero";
+		font-size:36px;
+		font-weight:200;
+		mix-blend-mode:multiply;
+	}
+}
 
 
 body{
-
 	background:rgb(250,0,0);
 	.line{
 		color:rgb(250,250,250);
@@ -66,6 +97,11 @@ body{
 			opacity:1;
 			&:nth-child(even){
 				opacity:0;
+			}
+		}
+		.fragments{
+			p{
+				color:red;
 			}
 		}
 	}

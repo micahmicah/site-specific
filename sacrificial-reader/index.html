@@ -17,19 +17,26 @@ layout: default
 
     {% endfor %}
     </p> -->
+<div class="words">
+<p>
+{% for entry in site.data.more-words %}
 
-{% for entry in site.data.speeches %}
-
-       <!-- <h2>{{entry.title}}</h2> -->
-       <p>
-           {% for line in entry.speech %}
-            <span class="line">{{line.line}}</span>
-           {% endfor %}
-       </p>
+       
+            <span class="line">{{entry.word}}</span>
+       
 
 {% endfor %}
+</p>
+</div>
 
-
+<!-- <div class="fragments">
+    {% for item in site.data.fragments %}
+    <div class="fragment">
+        <p>{{item.fragment}}</p>
+    </div>        
+    {% endfor %}
+</div>
+ -->
 
 
 
