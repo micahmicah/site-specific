@@ -18,11 +18,11 @@ layout: default
     {% endfor %}
     </p> -->
 
-{% for entry in site.data.poems %}
+{% for entry in site.data.speeches %}
 
-       <h2>{{entry.title}}</h2>
+       <!-- <h2>{{entry.title}}</h2> -->
        <p>
-           {% for line in entry.poem %}
+           {% for line in entry.speech %}
             <span>{{line.line}}</span>
            {% endfor %}
        </p>

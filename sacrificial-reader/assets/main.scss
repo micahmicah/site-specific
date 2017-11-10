@@ -30,7 +30,7 @@ p{
 	letter-spacing:-0.03em;
 	font-feature-settings:"kern" 1;
 	font-kerning: normal;
-	font-weight:200;
+	font-weight:600;
 	width:90vw;
 	line-height:0.97;
 	opacity:0;
@@ -55,12 +55,14 @@ span{
 
 body{
 
-	background:rgb(220,220,220);
-	
+	background:rgb(250,0,0);
+	span{
+		color:rgb(0,0,250);
+	}
 	&.b{
-		background:rgb(220,220,220);
+		background:rgb(0,0,250);
 		span{
-			// color:rgb(0,0,0);
+			color:rgb(250,0,0);
 			opacity:1;
 			&:nth-child(even){
 				opacity:0;
