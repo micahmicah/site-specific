@@ -14,6 +14,7 @@
 h2{
 	font-family:"Masqualero";
 	text-align:center;
+	// border-bottom:1px solid;
 }
 
 p{
@@ -34,6 +35,7 @@ p{
 	width:90vw;
 	line-height:0.97;
 	opacity:0;
+	padding:0 0.125em;
 	@include respond-above(small){
 		opacity:1;
 	};
@@ -51,10 +53,14 @@ span{
 }
 
 
+.poem{
+	margin-bottom:40vh;
+	// padding:0 1vw;
 
+}
 
 body{
-
+	margin:0;
 	background:rgb(220,220,220);
 	
 	&.b{
