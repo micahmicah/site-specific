@@ -1,164 +1,192 @@
 - word: "you"
-  type: "noun"
+  type: "pronoun"
 
 - word: "I"
-  type: "noun"
+  type: "pronoun"
 
 - word: "she"
-  type: "noun"
+  type: "pronoun"
 
 - word: "her"
-  type: "noun"
+  type: "pronoun"
 
 - word: "we"
-  type: "noun"
+  type: "pronoun"
 
 - word: "he"
-  type: "noun"
+  type: "pronoun"
 
 - word: "who"
-  type: "noun"
+  type: "pronoun"
 
 - word: "they"
-  type: "noun"
+  type: "pronoun"
 
 - word: "was"
-  type: "subject"
+  type: "verb"
 
 - word: "is"
-  type: "subject"
+  type: "verb"
 
 - word: "whose"
-  type: "subject"
+  type: "pronoun"
 
 - word: "him"
-  type: "subject"
+  type: "pronoun"
 
 - word: "they"
-  type: "subject"
+  type: "pronoun"
 
 - word: "ourselves"
-  type: ""
+  type: "pronoun"
 
 - word: "am"
-  type: ""
+  type: "verb"
 
 - word: "was"
-  type: ""
+  type: "verb"
 
 - word: "will"
-  type: ""
+  type: "verb"
 
 - word: "were"
   type: "verb"
 
 - word: "copy"
   type: "verb"
-
-- word: "copies"
-  type: ""
-
-- word: "copying"
-  type: ""
-
-- word: "copied"
-  type: ""
+  tense:
+    - past: "copied"
+    - present: "copying"
+    - future: "copy"
 
 - word: "search"
+  type: "verb"
+  tense: 
+    - past: "searched"
+    - present: "searching"
+    - future: "search"
+  plural: "searches"
 
 - word: "searched"
+  type: "verb"
 
 - word: "searching"
-  type: ""
+  type: "verb"
 
 - word: "searches"
-  type: ""
+  type: "verb"
 
 - word: "here"
-  type: ""
+  type: "adverb"
 
 - word: "there"
-  type: ""
+  type: "adverb"
 
 - word: "still"
-  type: ""
+  type: "adjective"
 
 - word: "together"
-  type: ""
+  type: "adjective"
 
 - word: "apart"
-  type: ""
+  type: "adjective"
 
 - word: "alone"
-  type: ""
+  type: "adjective"
 
 - word: "fine"
-  type: ""
+  type: "adjective"
 
 - word: "glad"
-  type: ""
+  type: "adjective"
 
 - word: "scroll"
-  type: ""
+  type: "verb"
+  tense: "future"
 
 - word: "scrolling"
-  type: ""
+  type: "verb"
+  tense: "present"
 
 - word: "click"
-  type: ""
+  type: "verb"
+  tense: "future"
 
 - word: "clicked"
-  type: ""
+  type: "verb"
+  tense: "past"
 
 - word: "clicks"
-  type: ""
+  type: "verb"
 
 - word: "clicking"
-  type: ""
+  type: "verb"
 
 - word: "slowly"
+  type: "adverb"
 
 - word: "tap"
-  type: ""
+  type: "verb"
 
 - word: "tapping"
-  type: ""
+  type: "verb"
 
 - word: "clip"
-  type: ""
+  type: "verb"
 
 - word: "clipped"
-  type: ""
+  type: "verb"
 
 - word: "clipping"
-  type: ""
+  type: "verb"
 
 - word: "look"
-  type: ""
+  type: "verb"
 
 - word: "looking"
-  type: ""
+  type: "verb"
+  tense: "present"
 
 - word: "see"
-  type: ""
+  type: "verb"
 
 - word: "seeing"
-  type: ""
+  type: "verb"
 
 - word: "saw"
-  type: ""
+  type: "verb"
 
 - word: "choose"
-  type: ""
+  type: "verb"
 
 - word: "choice"
-  type: ""
+  type: "noun"
 
 - word: "choosing"
-  type: ""
+  type: "verb"
+  tense: "present"
 
 - word: "chosen"
-  type: ""
+  type: "adjective"
+
+- word: "swipe"
+  type: "verb"
+
+- word: "cart"
+
+- word: "bag"
+
+- word: "buy"
+
+- word: "now"
+
+- word: "soon"
+
+- word: "tomorrow"
+
+- word: "yesterday"
+
+- word: ""
 
 - plural: 
   - vowelY: "ies"

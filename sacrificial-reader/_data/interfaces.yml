@@ -1,0 +1,187 @@
+- word: "ends in 0:00"
+  source: "amazon"
+
+- word: "What's happening?"
+  source: "twitter"
+
+- word: "What's on your mind?"
+  source: "facebook"
+
+- word: "Feeling/Activity"
+  source: "facebook"
+
+- word: "Comment"
+  source: "facebook"
+
+- word: "Share"
+  source: "facebook"
+
+- word: "Like"
+  source: "facebook"
+
+- word: "what colors do you see?"
+  source: "Facebook post"
+
+- word: "Like Page"
+  source: "facebook"
+
+- word: "Search"
+  source: "facebook"
+
+- word: "Details"
+  source: ""
+
+- word: "Showing 1 – 16 of 16"
+
+- word: "View all Deals"
+
+- word: "Showing All"
+
+- word: "Add to Cart"
+
+- word: "Recently"
+
+- word: "44 minutes ago"
+
+- word: "Load More"
+
+- word: "See All"
+
+- word: "Connect with us"
+
+- word: "More helfpul links"
+
+- word: "Pickup Today"
+
+- word: "show all categories"
+
+- word: "let's go"
+
+- word: "view all activity"
+
+
+- word: "edit your profile"
+  source: "twitter"
+
+- word: "who to follow"
+  source: "twitter"
+
+- word: "follow"
+
+- word: "promoted"
+  source: "twitter"
+
+- word: "you may like"
+
+- word: "add favorite"
+
+- word: "comments"
+
+- word: "watch"
+
+- word: "recently"
+
+- word: "subscribe now"
+
+- word: "recently"
+
+- word: "trending"
+
+- word: "more analysis"
+  source: "nfl"
+
+- word: "more videos"
+  source: "nfl"
+
+- word: "fantasy home"
+  source: "nfl"
+
+- word: "vote now"
+
+- word: "specials"
+
+- word: "help"
+
+- word: "updated hourly"
+
+- word: "see all"
+
+- word: "I'm feeling lucky"
+  source: "Google"
+
+- word: "History"
+  source: "Google"
+
+- word: "learn more"
+  source: "google"
+
+- word: "the new information warfare"
+  source: "the intercept"
+  url: "https://theintercept.com/2017/11/25/information-warfare-social-media-book-review-gaza/"
+
+- word: "about"
+  source: "e-flux"
+  url: "http://www.e-flux.com/"
+
+- word: "contact"
+  source: "e-flux"
+  url: "http://www.e-flux.com/"
+
+- word: "write a comment"
+  source: "facebook"
+
+- word: "followers"
+  source: "asana"
+
+- word: "on this day"
+  source: "facebook"
+
+- word: "shop now"
+  source: "facebook"
+
+- word: "explore"
+  source: "npr one"
+
+- word: "more news"
+  source: "npr"
+
+- word: "listen"
+  source: "npr"
+
+- word: "load more results"
+  source: "wired"
+
+- word: "archive"
+  source: "wired"
+
+- word: "more stories"
+  source: "Wired"
+
+- word: "Today at 11:39am EST"
+  source: "The Verge"
+
+- word: "get the app"
+  source: "npr one"
+
+- word: "this pancake printing robot is on sale and it's the best thing to  ever happen to me"
+  source: "mashable"
+  url: "http://mashable.com/2017/11/27/pancake-bot-on-sale-amazon/?utm_cid=hp-h-2#t8BvZuV1pPqm"
+
+- word: "trending"
+  source: "buzzfeed"
+
+- word: "on our radar"
+  source: "fox news"
+
+- word: "sponsored stories"
+  source: "fox news"
+
+- word: "opinion"
+  source: "fox news"
+
+- word: "view all"
+
+- word: "breaking"
+
+
+
