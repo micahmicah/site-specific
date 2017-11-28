@@ -7,26 +7,25 @@ layout: default
 
 
 
-<!-- <p>
-     {% assign counter = 01 %}
-    {% for item in site.data.more-words %}
-       {% assign someVar = someVar | plus: 1 %}
 
-      <span id="word-{{someVar}}" class="word">{{item.word}}
-
-
-    {% endfor %}
-    </p> -->
 <div class="words">
-<p>
-{% for entry in site.data.more-words %}
 
-       
-            <span class="line">{{entry.word}}</span>
-       
+ {% assign counter = 01 %}
+{% for entry in site.data.metaphors %}
+      {% assign someVar = someVar | plus: 1 %}
+      <p class="line line-{{someVar}}">
+        <span>{{someVar}}</span>
+        {{entry.metaphor}}
+      </p>
+     {% comment %} {% if entry.img %}
+        <div class="img-container">
+        <img src="{{entry.img}}">
+        </div>
+      {% endif %}{% endcomment %}
+ 
 
 {% endfor %}
-</p>
+
 </div>
 
 <!-- <div class="fragments">

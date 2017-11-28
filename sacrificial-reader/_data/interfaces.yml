@@ -176,6 +176,9 @@
 - word: "sponsored stories"
   source: "fox news"
 
+- word: "we care about your memories"
+  source: "facebook"
+
 - word: "opinion"
   source: "fox news"
 

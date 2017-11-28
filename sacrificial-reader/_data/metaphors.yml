@@ -12,11 +12,19 @@
 
 - metaphor: "more is up"
 
+- metaphor: "unknown is up"
+
+- metaphor: "known is down"
+
 - metaphor: "ideas are objects"
 
 - metaphor: "communication is sending"
 
 - metaphor: "linguistic expressions are containers"
+
+- metaphor: "happy is up"
+
+- metaphor: "events are objects"
 
 - metaphor: "time is money"
 
@@ -24,9 +32,13 @@
 
 - metaphor: "time is a commodity"
 
+- metaphor: "argument is struggle"
+
 - metaphor: "argument is war"
 
 - metaphor: "understanding is grasping"
+
+- metaphor: "understanding is seeing"
 
 - metaphor: "inflation is a person"
 
@@ -42,13 +54,14 @@
 
 - metaphor: "controller for controlled"
 
-- metaphor: "institution for people responsible"
+- metaphor: "the institution for the people responsible"
 
 - metaphor: "the place for the institution"
 
 - metaphor: "the place for the event"
 
 - metaphor: "time is a moving object"
+  img: "https://www.nasa.gov/centers/goddard/images/content/638831main_globe_east_2048.jpg"
 
 - metaphor: "time is stationary and we move through it"
 
@@ -84,7 +97,7 @@
 
 - metaphor: " seeing is touching; eyes are limbs"
 
-- metaphor: "the eyes are containers for the emtions"
+- metaphor: "the eyes are containers for the emotions"
 
 - metaphor: "emotional effect is phyiscal contact"
 
@@ -94,17 +107,36 @@
 
 - metaphor: "life is a container"
 
+- metaphor: "life is a story"
+
 - metaphor: "life is a gambling game"
 
 - metaphor: "object comes out of the substance"
 
 - metaphor: "the substance goes into the object"
 
+- metaphor: "nearest is first"
+
+- metaphor: "an instrument is a companion"
+
+- metaphor: "ideas are objects that come into the mind"
+
 - metaphor: "an argument is a fight"
+
+- metaphor: "an argument is a building"
+
+- metaphor: "an argument is a container"
 
 - metaphor: "more of form is more of content"
 
 - metaphor: "closeness is strength of effect"
 
 - metaphor: "problems are puzzles"
+
+- metaphor: "problems are chemicals"
+
+- metaphor: "problems are solid objects"
+
+- metaphor: "meanings are objects"
+
 
