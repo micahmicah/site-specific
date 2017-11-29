@@ -19,21 +19,30 @@ h2{
 p{
 	
 
-	font-family:"Masqualero";
+	font-family:"Pixel Strips";
 	hyphens:auto;
 	font-size: 20vw;
 	letter-spacing:-0.02em;
-	// font-weight:600;
 	font-feature-settings:"kern" 1;
 	font-kerning: normal;
 	text-align:center;
-	// text-transform:uppercase;
+	text-transform:uppercase;
 	width:90vw;
+	transform:scaleY(3.2);
 	line-height:1.01;
 	opacity:0;
+	color:blue;
+	mix-blend-mode:screen;
 	@include respond-above(small){
 		opacity:1;
 	};
+
+	&:nth-child(3n){
+		color:red;
+		mix-blend-mode:screen;
+	}
+
+
 }
 .img-container{
 	mix-blend-mode:multiply;
@@ -45,32 +54,66 @@ img{
 }
 
 .line{
-
+	
 	display:block;
-	color:rgb(40,40,40);
+
 	margin-bottom:2em;
-	// transform:rotate(-23deg);
 	&:nth-child(odd){
 		opacity:0;
 	}
 
-
+	
 	span{
-		display:block;
-		font-size:0.25em;
-		letter-spacing:0.01em;
-		text-align:left;
-		margin-top:50vh;
-		opacity:1.0;
-		&:nth-child(odd){
-			// background:black;
+		display:inline-block;
+		mix-blend-mode:screen;
+		-webkit-backface-visibility: hidden;
 
-			// transform:translateY(0.2em);
-		}
 		
+		&:nth-child(2n){
+			// animation:shiftY 5s ease-in-out infinite alternate;
+		}
+		&:nth-child(3n){
+			transform:translateY(0.2em) scaleY(0.8) translateX(0.125em);
+			color:white;
+		}
+		&:nth-child(4n){
+			color:red;
+			transform:scaleY(2);
+			// animation: growYBig 40s ease-in-out infinite alternate;
+		}
+
+		&:nth-child(5n){
+			color:rgb(0,255,0);
+			transform:scaleX(1.5) translateY(0.2em);
+			// animation: growX 4s ease-in-out infinite alternate;
+		}
+	}	
+	
+}
+
+@keyframes growX{
+	from{
+		transform:scaleX(1) translate3d( 0, 0, 0) perspective(1px) ;
+	}to{
+		transform:scaleX(2) translate3d( 0, 0, 0) perspective(1px) ;
 	}
 }
 
+@keyframes growYBig{
+	from{
+		transform: scaleY(1.4) translate3d( 0, 0, 0);
+	} to{
+		transform: scaleY(2) translate3d( 0, 0, 0);
+	}
+}
+
+@keyframes shiftY{
+	from{
+		transform:translateY(0) translate3d( 0, 0, 0) perspective(1px) ;
+	}to{
+		transform: translateY(0.25em) translate3d( 0, 0, 0) perspective(1px) ;
+	}
+}
 
 .fragments{
 	position:absolute;
@@ -87,19 +130,19 @@ img{
 }
 
 main{
-	background:rgb(250,0,0);
+	background:rgb(0,0,0);
 }
 
 body{
 
-	background:rgb(250,0,0);
+	background:rgb(0,0,0);
 	.line{
-		color:rgb(250,250,250);
+
 	}
 	&.b{
 		// background:rgb(0,0,250);
 		.line{
-			color:rgb(250,250,250);
+
 			opacity:1;
 			&:nth-child(even){
 				opacity:0;

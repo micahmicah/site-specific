@@ -11,11 +11,11 @@ layout: default
 <div class="words">
 
  {% assign counter = 01 %}
-{% for entry in site.data.metaphors %}
+{% for entry in site.data.more-words %}
       {% assign someVar = someVar | plus: 1 %}
       <p class="line line-{{someVar}}">
-        <span>{{someVar}}</span>
-        {{entry.metaphor}}
+        {% comment %}<span>{{someVar}}</span>{% endcomment %}
+        {{entry.word}}
       </p>
      {% comment %} {% if entry.img %}
         <div class="img-container">
