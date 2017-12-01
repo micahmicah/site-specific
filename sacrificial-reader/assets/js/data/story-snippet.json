@@ -1,0 +1,3 @@
+var news = {
+  "story": "On Tuesday, the F.C.C. chairman, Ajit Pai, announced plans to eliminate even the most basic net neutrality protections — including the ban on blocking — replacing them with a “transparency” regime enforced by the Federal Trade Commission. “Transparency,” of course, is a euphemism for “doing nothing.” Companies like Madison River, it seems, will soon be able to block internet calls so long as they disclose the blocking (presumably in fine print). Indeed, a broadband carrier like AT&T, if it wanted, might even practice internet censorship akin to that of the Chinese state, blocking its critics and promoting its own agenda. Allowing such censorship is anathema to the internet’s (and America’s) founding spirit."
+}
