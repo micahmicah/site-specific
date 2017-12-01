@@ -11,31 +11,14 @@ layout: default
 <div class="words">
 
  {% assign counter = 01 %}
-{% for entry in site.data.more-words %}
+{% for entry in site.data.story %}
       {% assign someVar = someVar | plus: 1 %}
-      <p class="line line-{{someVar}}">
-        {% comment %}<span>{{someVar}}</span>{% endcomment %}
-        {{entry.word}}
-      </p>
-     {% comment %} {% if entry.img %}
-        <div class="img-container">
-        <img src="{{entry.img}}">
-        </div>
-      {% endif %}{% endcomment %}
+      <p class="line line-{{someVar}}">{{entry.word}}</p>
  
 
 {% endfor %}
 
 </div>
-
-<!-- <div class="fragments">
-    {% for item in site.data.fragments %}
-    <div class="fragment">
-        <p>{{item.fragment}}</p>
-    </div>        
-    {% endfor %}
-</div>
- -->
 
 
 
