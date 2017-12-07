@@ -4,25 +4,27 @@
 
 @import "responsive";
 @import "typography";
+@import "animations";
+@import "images";
 
-
+$light-color: white;
+$dark-color: blue;
 
 p{
-	color:black;
-	// font-family:"Pixel Strips";
-	font-family:"Gothic 523";
+	color:$dark-color;
+	font-family:"Pixel Strips";
 	font-feature-settings:"kern" 1;
 	font-kerning: normal;
 	font-size: 20vw;		
 	hyphens:auto;
 	letter-spacing:-0.02em;
 	line-height:1.01;
-	margin-bottom:50vh;
+	margin-bottom:120vh;
 	opacity:0;
 	text-align:center;
-	// text-transform:uppercase;
-	// transform:scaleY(5.2);
+	transform:scaleY(7.2);
 	width:90vw;
+	filter:blur(0px);
 	
 	&:first-child{
 		margin-top:50vh;
@@ -43,34 +45,56 @@ p{
 
 	span{
 		display:inline-block;
-		&:nth-child(3n){
-			// color:red;
-			// transform:scaleY(0.4);
+		&:nth-child(odd){
+			transform:translateY(0.125em);
 		}
+		&:nth-child(3n){
+			transform:scaleY(0.4) translateY(-0.025em);
+			transform: translateZ(0);
+			backface-visibility: hidden;
+		}
+
 		&:nth-child(2n){
-			// transform:scaleY(0.7);
+			transform:scaleY(0.7);
 		}
 
 		&:nth-child(6n){
-			// transform:scaleY(0.25);
+			transform:scaleY(0.25);
 		}
 	}
 }
 
 
+.large{
+	font-size:16vw;
+	transform:scaleY(6);
 
+}
+
+.x-large{
+	font-size:12vw;
+}
+
+main{
+	margin:0;
+
+}
 
 body{
+	margin:0;
+	padding:2vw;
+	opacity: 1.0;
+	background:$light-color;
+
 	p{
 		&:nth-child(odd){
 			opacity:0;
 		}
 	}
 	&.b{
-		background:black;
-
+		background:$dark-color;
 		p{
-			color:white;
+			color:$light-color;
 			&:nth-child(odd){
 				opacity:1;
 			}
@@ -80,6 +104,7 @@ body{
 		}
 	}
 }
+
 
 
 

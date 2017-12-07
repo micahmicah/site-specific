@@ -1,0 +1,50 @@
+// .fcc{
+// 	position:fixed;
+// 	top:0;
+// 	left:0;
+// 	z-index:2;
+// 	max-width:50vw;
+// }
+
+// .trump{
+// 	position:fixed;
+// 	top:0;
+// 	right:0;
+// 	max-width:30vw;
+// }
+
+img{
+	max-width:100%;
+}
+
+.images{
+	display:flex;
+	mix-blend-mode:multiply;
+	align-items: center;
+  justify-content: center;
+	// background:red;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+}
+
+.no{
+	// position:fixed;
+	width:10vw;
+	mix-blend-mode:multiply;
+	top:0;
+	left:0;
+	z-index:10;
+	animation:  flicker 4s steps(1, end) infinite;
+			   // scaleShift 0.5s steps(2,end) alternate infinite;
+}
+
+.pai{
+	position:fixed;
+	top:10vw;
+	left:0;
+	animation:spin 20s steps(3, end) alternate infinite,
+			  flicker 40s steps(1, end) alternate infinite;
+}

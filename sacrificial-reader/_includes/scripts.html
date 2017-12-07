@@ -4,11 +4,31 @@
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+  return Math.floor(Math.random() * (max - min)) + min; 
+  //The maximum is exclusive and the minimum is inclusive
 }
 
 
 
+
+$(window).scroll(function(){
+  // set the bodyHeight based on total height
+  var bodyHeight = document.querySelector('.the-body').getBoundingClientRect().height;
+  // if the window scrolls passed a point run scroll to top function
+  if (window.scrollY > bodyHeight * 0.9998) {
+    scrollToTop();
+  }
+});
+
+// scroll to top function
+var timeOut;
+function scrollToTop() {
+  if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+    window.scrollBy(0,-500);
+    timeOut=setTimeout('scrollToTop()',10);
+  }
+  else clearTimeout(timeOut);
+}
 
 
 // Add this block to where your "after page load" code starts. 
@@ -22,20 +42,50 @@ if (location.hash && location.hash === "#b") {
 
 
 
+//  split the new story by the word and stash them in a variable
 var words = news.story.split(/\s/);
 
-
-
-
   $(document).ready(function() {
-  	// $('p').addClass('thing');
-  	// $('p').lettering();
-
+    // loop through all the words.
  	for (var i = 0; i < words.length; i++) {
- 		$('.words').append("<p>" + words[i] + "</p>");
-
+    // set a variable default of medium
+ 		var pClass = "medium";
+    // if the length of a word is longer than 8 characters give
+    // it the class of large
+ 		if (words[i].length > 8) {
+ 			pClass = "large";
+ 		}
+    // if longer than 12 give it the class of x-large
+ 		if (words[i].length > 12) {
+ 			pClass = "x-large";
+ 		}
+    // append the element with the class of words with the word in the loop
+ 		$('.words').append("<p" + " class=" + pClass + ">" + words[i] + "</p>");
 	}
+
+  // add lettering js to all paragraphs on the page
+	var paragraphs = $('p');	
+  	$('p').lettering();
+
   });
+
+
+
+var mousetimeout;
+var screensaver_active = false;
+var idletime = 10;
+
+$(window).scroll(function(){
+    clearTimeout(mousetimeout);
+    console.log('cleared!');
+
+    mousetimeout = setTimeout(function(){
+        scrollToTop();
+    }, 1000 * idletime);      
+});
+
+
+
 
 
 </script>
